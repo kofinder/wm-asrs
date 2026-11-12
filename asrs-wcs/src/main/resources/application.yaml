@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: asrs-wcs
+server:
+  port: 8080
+asrs:
+  opcua:
+    endpoint: "opc.tcp://localhost:12686/milo"
+    namespace: "urn:asrs:simulator"
+  planner:
+    # Start the ROS C++ planner BEFORE WCS; use ASRS_PLANNER_ENABLED=false to test without ROS.
+    enabled: ${ASRS_PLANNER_ENABLED:true}
+    url: "http://127.0.0.1:8091"

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>asrs_gazebo_view</name>
+  <version>0.2.0</version>
+  <description>ASRS Gazebo visual-only crane and WMS/WCS task pallet follower</description>
+  <maintainer email="lab@example.invalid">ASRS lab</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

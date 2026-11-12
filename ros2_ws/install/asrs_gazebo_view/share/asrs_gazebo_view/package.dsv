@@ -1,0 +1,9 @@
+source;share/asrs_gazebo_view/hook/pythonpath.ps1
+source;share/asrs_gazebo_view/hook/pythonpath.dsv
+source;share/asrs_gazebo_view/hook/pythonpath.sh
+source;share/asrs_gazebo_view/hook/ament_prefix_path.ps1
+source;share/asrs_gazebo_view/hook/ament_prefix_path.dsv
+source;share/asrs_gazebo_view/hook/ament_prefix_path.sh
+source;../../build/asrs_gazebo_view/share/asrs_gazebo_view/hook/pythonpath_develop.ps1
+source;../../build/asrs_gazebo_view/share/asrs_gazebo_view/hook/pythonpath_develop.dsv
+source;../../build/asrs_gazebo_view/share/asrs_gazebo_view/hook/pythonpath_develop.sh

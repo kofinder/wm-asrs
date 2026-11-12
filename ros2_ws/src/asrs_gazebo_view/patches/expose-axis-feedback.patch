@@ -1,0 +1,14 @@
+--- a/asrs-wcs/src/main/kotlin/com/example/asrs/wcs/OpcUaClientService.kt
++++ b/asrs-wcs/src/main/kotlin/com/example/asrs/wcs/OpcUaClientService.kt
+@@ -136,6 +136,11 @@
+         "RejectedCommandId" to read("RejectedCommandId"),
+         "CompletedCommandId" to read("CompletedCommandId"),
+         "FaultCode" to read("FaultCode"),
++        // Read-only virtual axis feedback for Gazebo visualization.
++        "AxisXPositionMm" to read("AxisXPositionMm"),
++        "AxisZPositionMm" to read("AxisZPositionMm"),
++        "SafetyState" to read("SafetyState"),
++        "SimulatedGuardClosed" to read("SimulatedGuardClosed"),
+     )
+ 
+     @PreDestroy

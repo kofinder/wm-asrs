@@ -1,0 +1,46 @@
+[0.740s] Invoking command in '/home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build
+[0.974s] running develop
+[1.137s] Removing /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs-gazebo-view.egg-link (link to .)
+[1.169s] Invoked command in '/home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build
+[1.171s] Invoking command in '/home/kothein/workspaces/wm_asrs/ros2_ws/src/asrs_gazebo_view': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/asrs_gazebo_view build --build-base /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build install --record /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/install.log --install-scripts $base/lib/asrs_gazebo_view --single-version-externally-managed install_data --force
+[1.378s] running egg_info
+[1.393s] writing ../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/PKG-INFO
+[1.393s] writing dependency_links to ../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/dependency_links.txt
+[1.393s] writing entry points to ../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/entry_points.txt
+[1.393s] writing requirements to ../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/requires.txt
+[1.393s] writing top-level names to ../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/top_level.txt
+[1.425s] reading manifest file '../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/SOURCES.txt'
+[1.425s] adding license file 'LICENSE'
+[1.425s] writing manifest file '../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/SOURCES.txt'
+[1.425s] running build
+[1.426s] running build_py
+[1.426s] creating /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build
+[1.426s] creating /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib
+[1.426s] creating /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view
+[1.426s] copying asrs_gazebo_view/wcs_visual_sync.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view
+[1.426s] copying asrs_gazebo_view/pallet_visual_sync.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view
+[1.426s] copying asrs_gazebo_view/pallet_scene.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view
+[1.426s] copying asrs_gazebo_view/__init__.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view
+[1.426s] running install
+[1.431s] running install_lib
+[1.446s] creating /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view
+[1.447s] copying /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view/wcs_visual_sync.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view
+[1.447s] copying /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view/pallet_visual_sync.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view
+[1.447s] copying /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view/pallet_scene.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view
+[1.447s] copying /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view/__init__.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view
+[1.447s] byte-compiling /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view/wcs_visual_sync.py to wcs_visual_sync.cpython-312.pyc
+[1.448s] byte-compiling /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view/pallet_visual_sync.py to pallet_visual_sync.cpython-312.pyc
+[1.450s] byte-compiling /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view/pallet_scene.py to pallet_scene.cpython-312.pyc
+[1.451s] byte-compiling /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view/__init__.py to __init__.cpython-312.pyc
+[1.451s] running install_data
+[1.451s] copying resource/asrs_gazebo_view -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/ament_index/resource_index/packages
+[1.452s] copying package.xml -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/asrs_gazebo_view
+[1.452s] copying launch/asrs_warehouse.launch.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/asrs_gazebo_view/launch
+[1.452s] copying worlds/asrs_warehouse.sdf -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/asrs_gazebo_view/worlds
+[1.452s] running install_egg_info
+[1.468s] Copying ../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info to /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view-0.2.0-py3.12.egg-info
+[1.469s] running install_scripts
+[1.572s] Installing pallet_visual_sync script to /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/asrs_gazebo_view
+[1.572s] Installing wcs_visual_sync script to /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/asrs_gazebo_view
+[1.572s] writing list of installed files to '/home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/install.log'
+[1.600s] Invoked command in '/home/kothein/workspaces/wm_asrs/ros2_ws/src/asrs_gazebo_view' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/asrs_gazebo_view build --build-base /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build install --record /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/install.log --install-scripts $base/lib/asrs_gazebo_view --single-version-externally-managed install_data --force

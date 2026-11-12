@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: asrs-wms
+  freemarker:
+    suffix: .ftlh
+    cache: false
+server:
+  port: 8081
+asrs:
+  wcs:
+    base-url: "http://127.0.0.1:8080"

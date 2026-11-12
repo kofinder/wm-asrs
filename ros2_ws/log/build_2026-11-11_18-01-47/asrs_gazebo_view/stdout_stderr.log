@@ -1,0 +1,42 @@
+running develop
+Removing /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs-gazebo-view.egg-link (link to .)
+running egg_info
+writing ../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/PKG-INFO
+writing dependency_links to ../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/dependency_links.txt
+writing entry points to ../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/entry_points.txt
+writing requirements to ../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/requires.txt
+writing top-level names to ../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/top_level.txt
+reading manifest file '../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build
+creating /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib
+creating /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view
+copying asrs_gazebo_view/wcs_visual_sync.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view
+copying asrs_gazebo_view/pallet_visual_sync.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view
+copying asrs_gazebo_view/pallet_scene.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view
+copying asrs_gazebo_view/__init__.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view
+running install
+running install_lib
+creating /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view
+copying /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view/wcs_visual_sync.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view
+copying /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view/pallet_visual_sync.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view
+copying /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view/pallet_scene.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view
+copying /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/build/lib/asrs_gazebo_view/__init__.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view
+byte-compiling /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view/wcs_visual_sync.py to wcs_visual_sync.cpython-312.pyc
+byte-compiling /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view/pallet_visual_sync.py to pallet_visual_sync.cpython-312.pyc
+byte-compiling /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view/pallet_scene.py to pallet_scene.cpython-312.pyc
+byte-compiling /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/asrs_gazebo_view -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/ament_index/resource_index/packages
+copying package.xml -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/asrs_gazebo_view
+copying launch/asrs_warehouse.launch.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/asrs_gazebo_view/launch
+copying worlds/asrs_warehouse.sdf -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/asrs_gazebo_view/worlds
+running install_egg_info
+Copying ../../build/asrs_gazebo_view/asrs_gazebo_view.egg-info to /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs_gazebo_view-0.2.0-py3.12.egg-info
+running install_scripts
+Installing pallet_visual_sync script to /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/asrs_gazebo_view
+Installing wcs_visual_sync script to /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/asrs_gazebo_view
+writing list of installed files to '/home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/install.log'

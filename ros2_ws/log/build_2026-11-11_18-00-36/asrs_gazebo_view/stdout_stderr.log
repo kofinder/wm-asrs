@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating asrs_gazebo_view.egg-info
+writing asrs_gazebo_view.egg-info/PKG-INFO
+writing dependency_links to asrs_gazebo_view.egg-info/dependency_links.txt
+writing entry points to asrs_gazebo_view.egg-info/entry_points.txt
+writing requirements to asrs_gazebo_view.egg-info/requires.txt
+writing top-level names to asrs_gazebo_view.egg-info/top_level.txt
+writing manifest file 'asrs_gazebo_view.egg-info/SOURCES.txt'
+reading manifest file 'asrs_gazebo_view.egg-info/SOURCES.txt'
+writing manifest file 'asrs_gazebo_view.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/python3.12/site-packages/asrs-gazebo-view.egg-link (link to .)
+Installing pallet_visual_sync script to /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/asrs_gazebo_view
+Installing wcs_visual_sync script to /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/lib/asrs_gazebo_view
+
+Installed /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view
+running symlink_data
+creating /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/ament_index
+creating /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/ament_index/resource_index
+creating /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/ament_index/resource_index/packages
+symbolically linking /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/resource/asrs_gazebo_view -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/ament_index/resource_index/packages
+symbolically linking /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/package.xml -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/asrs_gazebo_view
+creating /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/asrs_gazebo_view/launch
+symbolically linking /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/launch/asrs_warehouse.launch.py -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/asrs_gazebo_view/launch
+creating /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/asrs_gazebo_view/worlds
+symbolically linking /home/kothein/workspaces/wm_asrs/ros2_ws/build/asrs_gazebo_view/worlds/asrs_warehouse.sdf -> /home/kothein/workspaces/wm_asrs/ros2_ws/install/asrs_gazebo_view/share/asrs_gazebo_view/worlds
