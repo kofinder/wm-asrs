@@ -4,5 +4,5 @@ pluginManagement {
         mavenCentral()
     }
 }
-rootProject.name = "asrs-four-layer-lab"
+rootProject.name = "wm-asrs"
 include("asrs-wms", "asrs-wcs", "asrs-simulator")
